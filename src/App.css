@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600&family=Press+Start+2P&display=swap') ;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  background-color: #242424;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  font-family: 'Press Start 2P' , cursive;
+  font-size: 2.5rem;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.sistema {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  border: 1px solid;
+  border-radius: 10px;
+  font-family: Jura , sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  width: 60%;
+}
+
+.planetas {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Jura , sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 200px;
+  justify-content: center;
+  margin: 0.5rem;
+  width: 200px;
+}
+
+.cards img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.cards img:hover {
+  transition: linear 1s;
+  width: 200%;
+}
+
+.missions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-mission {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  width: 80%;
+}
+
+.mission-card {
+  border: 1px solid;
+  border-radius: 10px;
+  font-family: Jura , sans-serif;
+  height: 250px;
+  margin-bottom: 2rem;
+  text-shadow: 5px 5px 5px #242424;
+  width: 300px;
+}
+
+.mission-card h3 {
+  border-bottom: 1px solid;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.mission-card p {
+  font-size: 20px;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
